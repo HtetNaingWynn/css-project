@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Padauk:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+*{
+    font-family: 'Itim','Roboto','Padauk', 'sans-serif';
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --primary: #f5b5fc;
+    --secondary: #96f7d2;
+    --danger: #f0f696;
+    --dark: #fcb1b1;
+
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.pd-5{
+    padding: 5px;
+}
+
+.br-10{
+    border-radius: 10px;
+}
+
+.br-50{
+    border-radius: 50px;
+}
+
+
+.s-btn{
+    border: 2px solid black;
+    padding: 10px;    
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(167, 167, 167);
+    transition-duration: 1s;
+    
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+
+.btn-secondary{
+    background-color: var(--secondary);
+}
+
+.btn-danger{
+    background-color: var(--danger);
+}
+
+.btn-dark{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: var(--dark);
+}
+
+.btn-outline-primary{
+    border: 2px solid var(--primary);
+}
+
+.btn-outline-secondary{
+    border: 2px solid var(--secondary);   
+}
+
+.btn-outline-danger{
+    border: 2px solid var(--danger);   
+}
+
+.btn-outline-dark{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid var(--dark);    
+}
+
+.icon-btn{
+    width: 50px;
+}
+
+
+
+
+
+
