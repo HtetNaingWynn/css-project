@@ -21,8 +21,16 @@
     margin-bottom: 10px;
 }
 
+.mb-20{
+    margin-bottom: 20px;
+}
+
 .mt-10{
     margin-top: 10px;
+}
+
+.mt-20{
+    margin-top: 20px;
 }
 
 .pd-5{
@@ -103,6 +111,41 @@
 .icon-btn{
     width: 50px;
 }
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.table th, .table tr,.table td {
+    border: 2px solid black;
+    padding: 10px;    
+}
+
+tbody tr:hover{
+    background-color: rgb(203, 203, 203) !important;
+    transition-duration: 1s;
+}
+
+.table-borderless th,.table-borderless tr, .table-borderless td{
+    border: none;
+}
+
+.table-strip thead{
+    background-color: aqua;   
+}
+
+.table-strip tbody tr:nth-child(even){
+    background-color: rgb(252, 228, 255);
+}
+
+
+
+
+
+
+
 
 
 
