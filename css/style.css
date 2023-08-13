@@ -14,7 +14,6 @@
     --secondary: #96f7d2;
     --danger: #f0f696;
     --dark: #fcb1b1;
-
 }
 
 .mb-10{
@@ -35,6 +34,10 @@
 
 .pd-5{
     padding: 5px;
+}
+
+.pd-10{
+    padding: 10px;
 }
 
 .br-10{
@@ -60,8 +63,7 @@
 
 .btn:hover{
     background-color: rgb(167, 167, 167);
-    transition-duration: 1s;
-    
+    transition-duration: 1s; 
 }
 
 .btn-primary{
@@ -139,6 +141,71 @@ tbody tr:hover{
 .table-strip tbody tr:nth-child(even){
     background-color: rgb(252, 228, 255);
 }
+
+.html-list{
+    list-style-type: square;
+}
+
+.list-group{
+    list-style-type: none;
+}
+
+.list-group li{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.list-group li:hover{
+    background-color: rgb(223, 223, 223) !important;
+    transition-duration: 0.5s;
+}
+
+.list-group li:first-child{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.list-group li:last-child{
+    border-radius: 0px 0px 10px 10px;
+}
+
+.list-group li:nth-child(2){
+    background-color: var(--primary);
+}
+
+.list-group li:nth-child(3){
+    text-decoration: line-through;
+}
+
+.nav-group{
+    list-style-type: none;
+}
+
+.nav-group li{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.nav-group li:hover{
+    background-color: rgb(215, 215, 215) !important;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 540px) {
+
+    .nav-group li{
+        display: block;
+        margin-bottom: 5px;
+    } 
+}
+
+
+
+
+
 
 
 
