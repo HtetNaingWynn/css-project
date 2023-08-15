@@ -28,6 +28,10 @@
     margin-bottom: 20px;
 }
 
+.mt-2{
+    margin-top: 2px;
+}
+
 .mt-10{
     margin-top: 10px;
 }
@@ -42,6 +46,10 @@
 
 .pd-10{
     padding: 10px;
+}
+
+.pd-20{
+    padding: 20px;
 }
 
 .br-10{
@@ -218,6 +226,44 @@ tbody tr:hover{
     background-color: black;
     color: white;
 }
+
+.checkbox-change{
+    appearance: none;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+}
+
+.checkbox-change:checked{
+    background-image: url(../img/check-solid.svg);
+    background-repeat: no-repeat;
+}
+
+.submit-button{
+    background-color: black;
+    color: white;
+    width: 175px;
+    font-size: x-small;
+}
+
+fieldset{
+    margin: 10px 200px 10px 200px;
+}
+
+legend{
+    text-align: center;
+    font-size: large;
+}
+
+form{
+    font-size: x-small;
+}
+
+input{
+    padding: 1px;
+    font-size: x-small;
+}
+
 
 
 
