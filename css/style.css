@@ -190,6 +190,13 @@ tbody tr:hover{
 
 .nav-group{
     list-style-type: none;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(244, 227, 191);
+    border-radius: 10px;
+    width: 700px;
+    text-align: center;
+    margin: 10px 250px 10px 250px;
+    
 }
 
 .nav-group li{
@@ -262,6 +269,10 @@ form{
 input{
     padding: 1px;
     font-size: x-small;
+}
+
+a{
+    text-decoration: none;
 }
 
 
